@@ -104,21 +104,34 @@
 
 	.nav-top .navbar ul>li{
 	    float: right;
+
+	}
+
+	.navbar-dark .navbar-brand {
+	  
+	    margin: auto auto;
 	}
 
 	.navbar {
-	    flex-wrap: nowrap;
+	    
+	    margin: auto auto;
 	}
 	
 
 	.nav-top .navbar-nav {
-    /* margin: 0px auto; */
+   		margin: 15px auto;
 	    padding: 5px;
 	}
 
 	.nav-top .navbar-dark .navbar-nav .nav-link {
 	    font-size: 15px;
 	}
+
+	.btn {
+    padding: 5PX 20PX;
+	    font-size: 25PX;
+	}
+
 
 	.wrapper-intro {
 	    height: 100vh;
@@ -152,6 +165,9 @@
 	    border: 5px solid #3a3a3c;
 	}
 
+	.wrapper-howto h2 {
+	    color: #000;
+	    font-size: 35px;	}
 
 	
 	.footer-sec .content {
@@ -162,6 +178,12 @@
 	    width: 200px;
 	    height: auto;
 	}
+
+	.wrapper-tokenomics .table td {
+    font-weight: 600;
+    color: #2E384D;
+    font-size: 20px;
+}
 
 	
 }
